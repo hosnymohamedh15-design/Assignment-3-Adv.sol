@@ -23,6 +23,9 @@
                 return $"Price: {B.Price}";
             });
 
+             LibraryEngine.ProcessBooks(books, B => $"Published On: {B.PublicationDate.Date}");
+            
+
            
             
         }
